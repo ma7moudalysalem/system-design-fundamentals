@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Request the PDF
+    url: https://linkedin.com/in/ma7moudalysalem
+    about: Message me on LinkedIn with "System Design Book" to get a copy.
+  - name: Contributing guidelines
+    url: https://github.com/ma7moudalysalem/system-design-fundamentals/blob/main/CONTRIBUTING.md
+    about: How to report a correction, suggest a topic, or ask a question.

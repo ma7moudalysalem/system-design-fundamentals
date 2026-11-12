@@ -55,7 +55,7 @@ Most material tells you what a component is for. This book tells you what it doe
 
 ## 📬 Get the Book
 
-A professional 436-page PDF: 111 original diagrams, 150 comparison tables, annotated code and configuration, a full glossary, and an index of every interview question with the page that answers it.
+A professional 477-page PDF: 111 original diagrams, 150 comparison tables, annotated code and configuration, a full glossary, and an index of every interview question with the page that answers it.
 
 [![Contact on LinkedIn](https://img.shields.io/badge/Request%20the%20PDF-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ma7moudalysalem)
 
@@ -196,7 +196,7 @@ A professional 436-page PDF: 111 original diagrams, 150 comparison tables, annot
 
 </details>
 
-**Plus four appendices:** numbers every engineer should know, back-of-the-envelope estimation worked in full, a complete glossary, and further reading with what each source will change for you.
+**Plus five appendices:** numbers every engineer should know, back-of-the-envelope estimation worked in full, a complete glossary, further reading with what each source will change for you, and an answer to every one of the 313 review questions.
 
 ---
 

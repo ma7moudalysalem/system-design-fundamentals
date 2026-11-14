@@ -44,7 +44,7 @@ Most material tells you what a component is for. This book tells you what it doe
 | You are... | This book gives you... |
 |---|---|
 | A developer who has only built single-server apps | A patient start from one machine, with no assumed distributed-systems background |
-| Someone preparing for system design interviews | 200 interview questions with model answers, ten designs carried end to end, and seventeen more to attempt yourself |
+| Someone preparing for system design interviews | 200 interview questions with model answers, ten designs carried end to end, and twenty-seven more to attempt yourself |
 | A backend engineer who knows the words | The mechanisms underneath them, and the failure each one introduces |
 | A team lead choosing an architecture | The trade-off framing — CAP and PACELC, consistency models, and when each mechanism is wrong |
 | A data or platform engineer | Replication, sharding, queues, stream processing, and the papers that defined them |
@@ -55,7 +55,7 @@ Most material tells you what a component is for. This book tells you what it doe
 
 ## 📬 Get the Book
 
-A professional 669-page PDF: 126 original diagrams, 213 comparison tables, annotated code and configuration, a full glossary, a subject index, and an index of every interview question with the page that answers it.
+A professional 679-page PDF: 126 original diagrams, 213 comparison tables, annotated code and configuration, a full glossary, a subject index, and an index of every interview question with the page that answers it.
 
 [![Contact on LinkedIn](https://img.shields.io/badge/Request%20the%20PDF-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ma7moudalysalem)
 
@@ -205,7 +205,7 @@ A professional 669-page PDF: 126 original diagrams, 213 comparison tables, annot
 
 </details>
 
-**Plus six appendices:** numbers every engineer should know, back-of-the-envelope estimation worked in full, a complete glossary, further reading with what each source will change for you, an answer to every one of the 398 review questions, and seventeen practice designs to attempt on your own.
+**Plus six appendices:** numbers every engineer should know, back-of-the-envelope estimation worked in full, a complete glossary, further reading with what each source will change for you, an answer to every one of the 400 review questions, and twenty-seven practice designs to attempt on your own.
 
 ---
 

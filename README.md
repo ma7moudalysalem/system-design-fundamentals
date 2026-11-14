@@ -44,7 +44,7 @@ Most material tells you what a component is for. This book tells you what it doe
 | You are... | This book gives you... |
 |---|---|
 | A developer who has only built single-server apps | A patient start from one machine, with no assumed distributed-systems background |
-| Someone preparing for system design interviews | 164 interview questions with model answers, and six designs carried end to end |
+| Someone preparing for system design interviews | 200 interview questions with model answers, ten designs carried end to end, and twelve more to attempt yourself |
 | A backend engineer who knows the words | The mechanisms underneath them, and the failure each one introduces |
 | A team lead choosing an architecture | The trade-off framing — CAP and PACELC, consistency models, and when each mechanism is wrong |
 | A data or platform engineer | Replication, sharding, queues, stream processing, and the papers that defined them |
@@ -55,7 +55,7 @@ Most material tells you what a component is for. This book tells you what it doe
 
 ## 📬 Get the Book
 
-A professional 635-page PDF: 111 original diagrams, 150 comparison tables, annotated code and configuration, a full glossary, and an index of every interview question with the page that answers it.
+A professional 635-page PDF: 124 original diagrams, 204 comparison tables, annotated code and configuration, a full glossary, and an index of every interview question with the page that answers it.
 
 [![Contact on LinkedIn](https://img.shields.io/badge/Request%20the%20PDF-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ma7moudalysalem)
 
@@ -63,7 +63,7 @@ A professional 635-page PDF: 111 original diagrams, 150 comparison tables, annot
 
 ---
 
-## What's Inside — 41 Chapters
+## What's Inside — 50 Chapters
 
 <details>
 <summary><strong>Part I — Foundations</strong></summary>
@@ -161,22 +161,31 @@ A professional 635-page PDF: 111 original diagrams, 150 comparison tables, annot
 | 27. Security and Authentication | TLS, OAuth 2.0 and OIDC, JWTs and their sharp edges, secrets, common attack surfaces |
 | 28. Search and Inverted Indexes | Tokenisation, the inverted index, relevance scoring, distributed search |
 | 29. Batch and Stream Processing | MapReduce to modern engines, windows, watermarks, event time vs processing time |
+| 30. Service Architecture | Service discovery, the API gateway, call chains, CQRS and event sourcing |
+| 31. Analytical Storage | OLTP vs OLAP, column-oriented storage, compression, warehouses and lakes |
+| 32. Multi-Region and Disaster Recovery | RTO and RPO, failure domains, the four postures, failover step by step |
+| 33. Multi-Tenancy and Isolation | Silo, bridge and pool; noisy neighbours; sharding by tenant |
+| 34. Testing Distributed Systems | Fault injection, history checking, chaos experiments, load tests that mean something |
 
 </details>
 
 <details>
 <summary><strong>Part VIII — Designs End to End</strong></summary>
 
-> Six designs carried from a one-line prompt to a full architecture, using nothing that has not already been explained.
+> Ten designs carried from a one-line prompt to a full architecture, using nothing that has not already been explained.
 
 | Chapter | What You'll Design |
 |---|---|
-| 30. URL Shortener | Key generation, redirect path, analytics, and the read-heavy shape |
-| 31. News Feed | Fan-out on write vs read, the celebrity problem, ranking and pagination |
-| 32. Group Chat System | Connection state, delivery and read receipts, presence, message history |
-| 33. Video Platform | Upload and transcoding pipelines, adaptive bitrate streaming, CDN strategy |
-| 34. File Sync and Storage | Chunking, deduplication, delta sync, conflict resolution across devices |
-| 35. Maps and Proximity Search | Geohashing and quadtrees, nearest-neighbour queries, routing at scale |
+| 35. URL Shortener | Key generation, redirect path, analytics, and the read-heavy shape |
+| 36. News Feed | Fan-out on write vs read, the celebrity problem, ranking and pagination |
+| 37. Group Chat System | Connection state, delivery and read receipts, presence, message history |
+| 38. Video Platform | Upload and transcoding pipelines, adaptive bitrate streaming, CDN strategy |
+| 39. File Sync and Storage | Chunking, deduplication, delta sync, conflict resolution across devices |
+| 40. Maps and Proximity Search | Geohashing and quadtrees, nearest-neighbour queries, routing at scale |
+| 41. Ticket Sale | Contention on a fixed supply: an admission gate, seat holds, and paying exactly once |
+| 42. Payment System | A payment as a state machine, two idempotency keys, a double-entry ledger, reconciliation |
+| 43. Notification System | Push, email and SMS through providers that rate-limit; priority lanes; duplicates vs loss |
+| 44. Web Crawler | The frontier, politeness, a Bloom filter for seen URLs, freshness against coverage |
 
 </details>
 
@@ -187,12 +196,12 @@ A professional 635-page PDF: 111 original diagrams, 150 comparison tables, annot
 
 | Chapter | What You'll Learn |
 |---|---|
-| 36. Dynamo | Consistent hashing and quorums in production, and the price of always-writable |
-| 37. Cassandra | What it kept from Dynamo, what it took from Bigtable, and the LSM tree underneath |
-| 38. Kafka | The log as a primitive: partitions, offsets, replication, exactly-once semantics |
-| 39. Chubby | A lock service as the coordination backbone, and the lessons Google published about it |
-| 40. GFS and HDFS | Single-master design, chunk servers, and the failure model they were built for |
-| 41. Bigtable | SSTables, tablets, compaction, and the lineage running to every wide-column store since |
+| 45. Dynamo | Consistent hashing and quorums in production, and the price of always-writable |
+| 46. Cassandra | What it kept from Dynamo, what it took from Bigtable, and the LSM tree underneath |
+| 47. Kafka | The log as a primitive: partitions, offsets, replication, exactly-once semantics |
+| 48. Chubby | A lock service as the coordination backbone, and the lessons Google published about it |
+| 49. GFS and HDFS | Single-master design, chunk servers, and the failure model they were built for |
+| 50. Bigtable | SSTables, tablets, compaction, and the lineage running to every wide-column store since |
 
 </details>
 
